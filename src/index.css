@@ -1,0 +1,56 @@
+:root {
+  --main-bg-color: #dddddd;
+  --main-text-color: #1677ff;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+header .title {
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.mainContainer {
+  display: flex;
+}
+
+.panel {
+  width: 100%;
+  padding: 0 24px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.panel .title {
+  margin-bottom: 12px;
+}
+
+.container,
+.switchContainer {
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.switchContainer p:first-child {
+  margin-right: 8px;
+}
+
+.switchContainer p:last-child {
+  margin-left: 8px;
+}
+
+.radio {
+  width: 100px;
+  text-align: center;
+}
